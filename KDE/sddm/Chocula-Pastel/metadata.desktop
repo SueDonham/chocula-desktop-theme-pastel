@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Chocula-Pastel
+Description=Chocula-Pastel sddm theme
+Author=SueDonham
+Copyright=(c) 2024, SueDonham
+License=GPL 3+
+Type=sddm-theme
+Version=0.1
+Website=https://github.com/SueDonham/chocula-desktop-theme-pastel/tree/main/kde/sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=susan.donham@pm.me
+Theme-Id=Chocula-Pastel
+Theme-API=2.0
