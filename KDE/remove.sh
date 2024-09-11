@@ -3,7 +3,7 @@
 # Destination paths for root vs user removals:
 [[ $UID == "0" ]] && ROOT=true && DEST="/usr/share" || DEST="$HOME/.local/share"
 
-COLORS=$DEST/color-schemes/Chocula-Pastel.colors
+COLORS=$DEST/color-schemes/ChoculaPastel.colors
 SDDM_DIR=/usr/share/sddm/themes/Chocula-Pastel
 
 DIRS=(

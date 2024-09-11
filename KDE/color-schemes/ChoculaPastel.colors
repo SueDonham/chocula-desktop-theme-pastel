@@ -89,8 +89,8 @@ ForegroundPositive=170,198,159
 ForegroundVisited=128,162,179
 
 [General]
-ColorScheme=Chocula-Pastel
-Name=Chocula-Pastel
+ColorScheme=ChoculaPastel
+Name=ChoculaPastel
 shadeSortColumn=true
 
 [KDE]

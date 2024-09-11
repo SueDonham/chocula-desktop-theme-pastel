@@ -2,13 +2,13 @@
 widgetStyle=breeze
 
 [kdeglobals][General]
-ColorScheme=Chocula-Pastel
+ColorScheme=ChoculaPastel
 
 [kdeglobals][Icons]
-Theme=Colloid-pastel-dark
+Theme=Colloid-Pastel-Dark
 
 [kcminputrc][Mouse]
-cursorTheme=Colloid-pastel-cursors-light
+cursorTheme=Colloid-pastel-cursors-dark
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
