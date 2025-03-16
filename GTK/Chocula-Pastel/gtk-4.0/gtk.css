@@ -3843,6 +3843,10 @@ infobar {
   color: #c98282;
   background-color: transparent
 }
+banner revealer widget {
+  background: rgba(170,198,159,.85);
+  padding: 5px
+}
 levelbar.horizontal trough > block {
   min-height: 5px;
   border-radius: 5px
@@ -3952,6 +3956,9 @@ row.activatable:selected:hover {
 }
 row.activatable:selected:backdrop {
   background-color: rgba(158,144,175,.4)
+}
+row.activatable .view {
+  background-color: transparent
 }
 columnview > listview > row {
   padding: 0
