@@ -5886,6 +5886,9 @@ placessidebar row {
 placessidebar row label {
   padding-left: 8px
 }
+placessidebar row.sidebar-row:selected:backdrop {
+  background-color: rgba(158,144,175,.1)
+}
 placessidebar row.sidebar-new-bookmark-row {
   color: rgba(158,144,175,.5)
 }
