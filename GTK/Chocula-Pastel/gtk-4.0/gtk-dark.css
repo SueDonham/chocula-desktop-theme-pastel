@@ -173,6 +173,8 @@ actionbar > revealer > box:last-child {
   border-radius: 0 0 6px 6px;
   border-width: 0 1px 1px 1px
 }
+.history-view:selected,
+.history-view:selected:focus,
 .menuitem.button.flat:selected,
 .view:selected,
 .view:selected:focus,
@@ -198,6 +200,8 @@ treeview.view:selected,
 treeview.view:selected:focus {
   background-color: rgba(158,144,175,.5)
 }
+.history-view:selected,
+.history-view:selected:focus,
 .menuitem.button.flat:selected,
 .selection-mode windowcontrols button,
 .view:selected,
@@ -227,6 +231,7 @@ treeview.view:selected:focus {
   color: #f5f4f4;
   font-weight: 400
 }
+.history-view:disabled:selected,
 .menuitem.button.flat:disabled:selected,
 .selection-mode windowcontrols button:disabled,
 .view:disabled:selected,
@@ -251,6 +256,7 @@ textview > text:disabled:selected:focus,
 treeview.view:disabled:selected {
   color: rgba(223,219,227,.75)
 }
+.history-view:backdrop:selected,
 .menuitem.button.flat:backdrop:selected,
 .selection-mode windowcontrols button:backdrop,
 .view:backdrop:selected,
@@ -276,6 +282,7 @@ textview > text:backdrop:selected:focus,
 treeview.view:backdrop:selected {
   color: rgba(245,244,244,.5)
 }
+.history-view:backdrop:disabled:selected,
 .menuitem.button.flat:backdrop:disabled:selected,
 .selection-mode windowcontrols button:backdrop:disabled,
 .view:backdrop:disabled:selected,
@@ -337,18 +344,22 @@ textview > text:backdrop:disabled:selected {
   color: #f5f4f4;
   background-color: rgba(158,144,175,.5)
 }
+.history-view,
 .view,
 iconview,
 textview > text {
   color: #f5f4f4;
   background-color: #322e2b
 }
+.history-view:backdrop,
 .view:backdrop,
 iconview:backdrop,
 textview > text:backdrop {
   color: #cfcdcc;
   background-color: #35312d
 }
+.history-view:selected,
+.history-view:selected:focus,
 .view:selected,
 .view:selected:focus,
 iconview:selected,
