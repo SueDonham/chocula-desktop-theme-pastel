@@ -3914,9 +3914,14 @@ levelbar > trough > block.empty {
  *********/
 list,
 listview {
-  color: #f5f4f4;
   background-color: #322e2b;
   border-color: rgba(33,30,28,.9)
+}
+list,
+list label,
+listview,
+listview label {
+  color: #f5f4f4
 }
 list:backdrop,
 listview:backdrop {

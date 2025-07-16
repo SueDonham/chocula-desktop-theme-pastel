@@ -6,9 +6,9 @@
  * Lists *
  *********/
 list, listview {
-	color: $text_color;
 	background-color: $base_color;
 	border-color: $borders_color;
+	&, label { color: $text_color; }
 	&:backdrop {
 		background-color: $backdrop_base_color;
 		border-color: $backdrop_borders_color;
