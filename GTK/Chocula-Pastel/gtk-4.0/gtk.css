@@ -1575,6 +1575,19 @@ notebook .linked > button,
 popover .linked > button {
   box-shadow: none
 }
+toggle-group {
+  padding: 3px
+}
+toggle-group toggle {
+  padding: 0 4px
+}
+toggle-group toggle:checked {
+  background-color: rgba(158,144,175,.5)
+}
+toggle-group toggle:checked,
+toggle-group toggle:checked label {
+  color: #f5f4f4
+}
 /*********************
  * App Notifications *
  *********************/
