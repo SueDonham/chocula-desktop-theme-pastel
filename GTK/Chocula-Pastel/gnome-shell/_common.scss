@@ -2132,7 +2132,7 @@ $base_padding: 6px;
 	border-radius: 99px;
 	&:checked {
 		@include drawing.button(active, color.adjust($selected_bg_color, $alpha: -0.35));
-		&:hover { @include drawing.button(active, color.adjust(color.adjust($selected_bg_color, $lightness: 10%), $alpha: -0.35)); }
+		&:hover { @include drawing.button(active, color.adjust($selected_bg_color, $alpha: -0.3)); }
 		&, &:hover { color: $purple; }
 	}
 	&, &:hover, &:checked, &:checked:hover { border: none; }
@@ -2146,7 +2146,7 @@ $base_padding: 6px;
 	.quick-toggle-label { font-weight: bold; }
 }
 
-.quick-menu-toggle {
+.quick-menu-toggle, .quick-toggle-has-menu {
 	&:ltr > StBoxLayout { padding-right: 0; }
 	&:rtl > StBoxLayout { padding-left: 0; }
 	& .quick-toggle {
@@ -2157,14 +2157,14 @@ $base_padding: 6px;
 		&:ltr:last-child { border-radius: 99px; }
 		&:rtl:last-child { border-radius: 99px; }
 	}
-	& .quick-toggle-arrow {
-		background-color: color.adjust($base_color, $lightness: 1%);
+	& .quick-toggle-arrow, & .quick-toggle-menu-button {
+		background-color: color.adjust(color.adjust($base_color, $lightness: 4%), $alpha: -0.5);
 		padding: $base_padding $base_padding*1.75;
 		border-width: 0;
 		color: $fg_color;
 		&:checked {
 			@include drawing.button(active, color.adjust($selected_bg_color, $alpha: -0.25));
-			&:hover { @include drawing.button(active, color.adjust(color.adjust($selected_bg_color, $lightness: 10%), $alpha: -0.25)); }
+			&:hover { @include drawing.button(active, color.adjust($selected_bg_color, $alpha: -0.15)); }
 			&, &:hover {
 				color: $purple;
 				border-width: 0;
@@ -2175,6 +2175,8 @@ $base_padding: 6px;
 		}
 		&:ltr { border-radius: 0 99px 99px 0; }
 		&:rtl { border-radius: 99px 0 0 99px; }
+		& .quick-toggle-menu-button { background-color: color.adjust($base_color, $lightness: 5%); }
+    & .quick-toggle-separator { width: 0; }
 	}
 }
 
