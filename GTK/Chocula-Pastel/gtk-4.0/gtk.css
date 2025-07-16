@@ -2382,28 +2382,9 @@ messagedialog.csd.background {
   color: #f5f4f4;
   border-radius: 10px
 }
-.dialog.csd .dialog-action-area button,
-.dialog.csd .response-area button,
-.messagedialog.csd .dialog-action-area button,
-.messagedialog.csd .response-area button,
-messagedialog.csd .dialog-action-area button,
-messagedialog.csd .response-area button {
-  padding: 7px 11px;
-  border-radius: 0;
-  color: #f5f4f4;
-  box-shadow: none;
-  border: none
-}
-.dialog.csd .dialog-action-area button:not(.destructive-action):hover,
-.dialog.csd .response-area button:not(.destructive-action):hover,
-.messagedialog.csd .dialog-action-area button:not(.destructive-action):hover,
-.messagedialog.csd .response-area button:not(.destructive-action):hover,
-messagedialog.csd .dialog-action-area button:not(.destructive-action):hover,
-messagedialog.csd .response-area button:not(.destructive-action):hover {
-  background-color: rgba(158,144,175,.5);
-  color: #f5f4f4
-}
-.messagedialog .message-area {
+.dialog .dialog-action-area,
+.messagedialog .message-area,
+.messagedialog .response-area {
   padding: 26px
 }
 filechooser .dialog-action-box {
