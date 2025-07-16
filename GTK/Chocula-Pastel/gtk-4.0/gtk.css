@@ -2382,6 +2382,8 @@ messagedialog.csd.background {
   color: #f5f4f4;
   border-radius: 10px
 }
+.alert.floating .body-scrolled-window,
+.alert.floating .response-area,
 .dialog .dialog-action-area,
 .messagedialog .message-area,
 .messagedialog .response-area {
